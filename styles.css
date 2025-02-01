@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 550px;
+}
+
+.move-icon{
+  height: 50px;
+}
+
+.results,
+.score {
+  margin-top: 50px;
+}
+
+.results{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px ridge #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.reset-button,
+.auto-play-button {
+  padding: 8px 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.game-link{
+  color: rgb(43, 43, 253);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.game-link:hover{
+  text-decoration: underline;
+}
